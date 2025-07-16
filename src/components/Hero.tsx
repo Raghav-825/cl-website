@@ -278,7 +278,7 @@ const Hero = () => {
                 >
                   <Music className="w-4 h-4" />
                 </motion.div>
-                <span>Looping Into the Future</span>
+                <span>Looping Into the Future of Entertainment</span>
               </motion.div>
             </motion.div>
 
@@ -287,9 +287,12 @@ const Hero = () => {
               variants={itemVariants}
               className="text-[#9CA3AF] max-w-xl mt-4 leading-relaxed text-lg opacity-90"
             >
-              We're an entertainment powerhouse and artist management agency dedicated to elevating tomorrow's stars. From visionary amateurs to world-class performers.
-            </motion.p>
-
+              We’re an entertainment powerhouse and artist management agency dedicated to elevating tomorrow's stars. From visionary amateurs to world-class performers, we represent, manage, and produce talent that moves audiences worldwide.            </motion.p>
+            <motion.p
+              variants={itemVariants}
+              className="text-[#9CA3AF] max-w-xl mt-4 leading-relaxed text-lg opacity-90"
+            >
+              Closed Loop—where raw talent meets real opportunity, and unforgettable entertainment moments are born. We’re not just another name among event production companies—we’re a dynamic artist management agency, a creative powerhouse, and your go-to partner in turning performances into memories. From ambitious amateurs to world-class icons, we represent, nurture, and celebrate talent that captivates the world</motion.p>
             {/* Enhanced CTA Buttons - Devin.ai Style */}
             <motion.div
               variants={itemVariants}
